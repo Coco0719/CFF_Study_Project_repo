@@ -13,6 +13,8 @@ void playerSel(int *playerPic)
 	} while (*playerPic > 4 || *playerPic < 1);
 }
 
+
+
 void AiSel(int *aiPic)
 {
 	*aiPic = (rand() % 4) + 1;
